@@ -74,11 +74,11 @@
           class="btn text-white text-center menu-item rounded-4 px-3 fs-5 mx-1 bg-custom"
           >Матча</a
         >
-        <a
+        <!-- <a
           href="#icetea"
           class="btn text-white text-center menu-item rounded-4 px-3 fs-5 mx-1 bg-custom"
           >Айс Ті</a
-        >
+        > -->
         <a
           href="#cocktail"
           class="btn text-white text-center menu-item rounded-4 px-3 fs-5 mx-1 bg-custom"
@@ -88,6 +88,11 @@
           href="#lemonad"
           class="btn text-white text-center menu-item rounded-4 px-3 fs-5 mx-1 bg-custom"
           >Лимонад</a
+        >
+        <a
+          href="#cocktailmilk"
+          class="btn text-white text-center menu-item rounded-4 px-3 fs-5 mx-1 bg-custom"
+          >Молочні коктейлі</a
         >
         <a
           href="#pastries"
@@ -307,7 +312,7 @@
               <span class="badge bg-primary">45₴</span>
             </li>
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
+              class="list-group-item d-flex justify-content-between align-items-center text-start"
             >
               Капучино по-Голандськи
               <span class="badge bg-primary">45₴</span>
@@ -366,7 +371,7 @@
               <span class="badge bg-primary">55₴</span>
             </li>
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
+              class="list-group-item d-flex justify-content-between align-items-center text-start"
             >
               Тонік по-Скандинавськи
               <span class="badge bg-primary">55₴</span>
@@ -589,68 +594,56 @@
           <h2 id="matcha" class="mt-5 fs-1">Матча</h2>
           <ul class="list-group fs-5">
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              Матча Лате
-              <span class="badge bg-primary">55₴</span>
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              Мачта Лате альтернативна
-              <span class="badge bg-primary">70₴</span>
-            </li>
-            <li
-              style="color: #696639"
-              class="list-group-item d-flex justify-content-between align-items-center fw-bold fst-italic"
+              class="list-group-item d-flex justify-content-between align-items-center border-bottom-0"
               data-bs-toggle="collapse"
-              href="#iceCollapse"
+              href="#matchaCollapse"
               aria-expanded="false"
               aria-controls="espressoCollapse"
               onclick="toggleSpans(this)"
             >
-              Холодна
+              Матча Лате
               <span
                 ><i class="menuButtonIcon1 bi bi-chevron-double-down"></i
               ></span>
+              <span class="notdiv badge menuButtonIcon2 bg-primary">55₴</span>
             </li>
-            <div class="collapse" id="iceCollapse">
+            <div class="collapse" id="matchaCollapse">
               <ul class="list-group rounded-0">
                 <li
                   class="list-group-item d-flex justify-content-between align-items-center"
                 >
-                  Тропік
-                  <span class="badge bg-primary">78₴</span>
+                  Матча Лате альтернативне
+                  <span class="badge bg-primary">70₴</span>
                 </li>
-                <li
-                  class="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  Тонік
-                  <span class="badge bg-primary">60₴</span>
-                </li>
-                <li
-                  class="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  Орандж
-                  <span class="badge bg-primary">60₴</span>
-                </li>
-                <li
-                  class="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  Імбир
-                  <span class="badge bg-primary">78₴</span>
-                </li>
-                <!-- <li
-                  class="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  Фреш
-                  <span class="badge bg-primary">₴</span>
-                </li> -->
               </ul>
             </div>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Тонік
+              <span class="badge bg-primary">60₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Орандж
+              <span class="badge bg-primary">60₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Тропік
+              <span class="badge bg-primary">78₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Імбир
+              <span class="badge bg-primary">78₴</span>
+            </li>
           </ul>
 
-          <h2 id="icetea" class="mt-5 fs-1">Айс Ті</h2>
+          <!-- <h2 id="icetea" class="mt-5 fs-1">Айс Ті</h2>
           <ul class="list-group fs-5">
             <li
               class="list-group-item d-flex justify-content-between align-items-center"
@@ -688,7 +681,7 @@
               Блакитне кокосове лате
               <span class="badge bg-primary">₴</span>
             </li>
-          </ul>
+          </ul> -->
 
           <h2 id="cocktail" class="mt-5 fs-1">Коктейлі</h2>
           <ul class="list-group fs-5">
@@ -722,12 +715,6 @@
               Blue Orange
               <span class="badge bg-primary">60₴</span>
             </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              Мохіто
-              <span class="badge bg-primary">75₴</span>
-            </li>
           </ul>
 
           <h2 id="lemonad" class="mt-5 fs-1">Лимонад</h2>
@@ -736,6 +723,18 @@
               class="list-group-item d-flex justify-content-between align-items-center"
             >
               Класичний
+              <span class="badge bg-primary">70₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              М'ятний
+              <span class="badge bg-primary">70₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Обліпиха
               <span class="badge bg-primary">70₴</span>
             </li>
             <li
@@ -753,7 +752,7 @@
             <li
               class="list-group-item d-flex justify-content-between align-items-center"
             >
-              Ківі
+              Малина
               <span class="badge bg-primary">70₴</span>
             </li>
             <li
@@ -765,7 +764,7 @@
             <li
               class="list-group-item d-flex justify-content-between align-items-center"
             >
-              Малина
+              Абрикос-ананас-липа
               <span class="badge bg-primary">70₴</span>
             </li>
             <li
@@ -777,8 +776,78 @@
             <li
               class="list-group-item d-flex justify-content-between align-items-center"
             >
-              Обліпиха
+              Апельсин
               <span class="badge bg-primary">70₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Мохіто
+              <span class="badge bg-primary">75₴</span>
+            </li>
+          </ul>
+
+          <h2 id="cocktailmilk" class="mt-5 fs-1">Молочні коктейлі</h2>
+          <ul class="list-group fs-5">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Ванільний Мілкшейк
+              <span class="badge bg-primary">65₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center text-start"
+            >
+              Шоколадний Мілкшейк
+              <span class="badge bg-primary">65₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Ягідний Мілкшейк
+              <span class="badge bg-primary">70₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Банановий Мілкшейк
+              <span class="badge bg-primary">65₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Трояндовий Мілкшейк
+              <span class="badge bg-primary">65₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Oreo
+              <span class="badge bg-primary">70₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Піна колада
+              <span class="badge bg-primary">70₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Айс Какао
+              <span class="badge bg-primary">45₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Айс Шоколад
+              <span class="badge bg-primary">65₴</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Айс М'ята-шоколад
+              <span class="badge bg-primary">65₴</span>
             </li>
           </ul>
 
