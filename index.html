@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Neonderthaw&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Seaweed+Script&family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Lobster&family=Pacifico&family=Pattaya&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&family=Truculenta:opsz,wght@12..72,100..900&display=swap"
       rel="stylesheet"
     />
     <style>
@@ -45,6 +45,9 @@
       h1,
       h2 {
         color: #696639;
+        font-family: "Pattaya", sans-serif;
+        font-weight: 400;
+        font-style: normal;
       }
       .notdiv {
         display: none;
@@ -61,6 +64,19 @@
       .fontSize {
         font-size: 1.7rem !important;
         margin: 0 20px;
+      }
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .mb-10 {
+        margin-bottom: 100px !important;
+      }
+      .pacifico-regular {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
       }
     </style>
   </head>
@@ -114,7 +130,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container pacifico-regular">
       <div class="row justify-content-center mt-4">
         <div class="col-lg-6" id="menu">
           <h2 id="coffee" class="fs-1 mt-2">Кава</h2>
@@ -796,7 +812,7 @@
           </ul>
 
           <h2 id="pastries" class="mt-5 fs-1">Десерти</h2>
-          <ul class="list-group fs-5 mt-3 mb-5">
+          <ul class="list-group fs-5 mt-3 mb-10">
             <li
               class="list-group-item d-flex justify-content-between align-items-center text-center fs-6"
             >
@@ -848,36 +864,30 @@
         </div>
       </div>
     </div>
-    <footer class="d-flex justify-content-between py-2 bg-custom">
-      <div>
-        <ul class="nav d-flex">
-          <li class="mx-3 fs-5">
-            <a class="text-white" href="https://www.instagram.com/_lokatsiya_/">
-              <i class="fontSize bi bi-instagram"></i>
-            </a>
-          </li>
-          <li class="mx-3 fs-5">
-            <a
-              class="text-white"
-              href="https://www.facebook.com/p/%D0%9B%D0%BE%D0%BA%D0%B0%D1%86%D1%96%D1%8F-%D0%92%D0%B8%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%96%D0%B2-100093053539001/?paipv=0&eav=AfYkT0SJznuLfMtpL5BfB9r7LhHVUMjqdE40wwXxCN6kps71ljPxqVO0r-CD8B0oHjQ&_rdr"
-            >
-              <i class="fontSize bi bi-facebook"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <ul class="nav d-flex">
-          <li class="mx-3 fs-5">
-            <a
-              class="text-white"
-              href="https://maps.app.goo.gl/aPG9aiLw5MkHYCSx7?g_st=ic"
-            >
-              <i class="fontSize bi bi-geo-alt-fill"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+    <footer class="d-flex py-2 bg-custom">
+      <ul class="nav d-flex justify-content-between" style="width: 100%">
+        <li class="mx-3 fs-5">
+          <a class="text-white" href="https://www.instagram.com/_lokatsiya_/">
+            <i class="fontSize bi bi-instagram"></i>
+          </a>
+        </li>
+        <li class="mx-3 fs-5">
+          <a
+            class="text-white"
+            href="https://www.facebook.com/p/%D0%9B%D0%BE%D0%BA%D0%B0%D1%86%D1%96%D1%8F-%D0%92%D0%B8%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%96%D0%B2-100093053539001/?paipv=0&eav=AfYkT0SJznuLfMtpL5BfB9r7LhHVUMjqdE40wwXxCN6kps71ljPxqVO0r-CD8B0oHjQ&_rdr"
+          >
+            <i class="fontSize bi bi-facebook"></i>
+          </a>
+        </li>
+        <li class="mx-3 fs-5">
+          <a
+            class="text-white"
+            href="https://l.instagram.com/?u=https%3A%2F%2Fmaps.app.goo.gl%2FaPG9aiLw5MkHYCSx7%3Fg_st%3Dic&e=AT3zj84_iUm39Q5n368AMerDbWE306M0hhPVMCx7YKR3YC_S_i9Tqu4duMhTArEHLt4z3m47rR0byMUaBG_G6840u6wig3dz8Ica1w"
+          >
+            <i class="fontSize bi bi-geo-alt-fill"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
 
     <script>
