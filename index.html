@@ -36,18 +36,14 @@
         background-size: contain;
         background-repeat: no-repeat;
         filter: blur(8px);
-        z-index: -1; /* Розміщуємо зображення за всіма іншими елементами */
+        z-index: -1;
       }
       .badge {
         background-color: #696639 !important;
         color: #ffffff;
       }
       h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
+      h2 {
         color: #696639;
       }
       .notdiv {
@@ -58,9 +54,6 @@
       }
       .bg-custom {
         background-color: #696639 !important;
-      }
-      .bg-custom-two {
-        background-color: #69AA64 !important;
       }
       ::-webkit-scrollbar {
         display: none;
@@ -73,7 +66,7 @@
   </head>
   <body>
     <div class="header">
-      <img class="img-fluid border-0 my-3" src="logo.png" alt="" />
+      <img class="img-fluid border-0 my-3" src="logo.webp" alt="" />
 
       <div
         class="d-flex flex-nowrap overflow-auto align-items-start fs-5 mt-3 px-1"
@@ -98,11 +91,6 @@
           class="btn text-white text-center menu-item rounded-4 px-3 fs-5 mx-1 bg-custom"
           >Матча</a
         >
-        <!-- <a
-          href="#icetea"
-          class="btn text-white text-center menu-item rounded-4 px-3 fs-5 mx-1 bg-custom"
-          >Айс Ті</a
-        > -->
         <a
           href="#cocktail"
           class="btn text-white text-center menu-item rounded-4 px-3 fs-5 mx-1 bg-custom"
@@ -310,18 +298,6 @@
                 >
                   Мед
                 </li>
-                <!-- <li
-                  class="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  Гарбуз
-                  <span class="badge bg-primary">60₴</span>
-                </li>
-                <li
-                  class="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  Пряна осінь
-                  <span class="badge bg-primary">60₴</span>
-                </li> -->
                 <li
                   class="list-group-item justify-content-between align-items-center text-center"
                 >
@@ -651,46 +627,6 @@
             </li>
           </ul>
 
-          <!-- <h2 id="icetea" class="mt-5 fs-1">Айс Ті</h2>
-          <ul class="list-group fs-5">
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              Блу Оушен
-              <span class="badge bg-primary">₴</span>
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              Малиновий анчан
-              <span class="badge bg-primary">₴</span>
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              Журавлина Гібіскус
-              <span class="badge bg-primary">₴</span>
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              Яблучне
-              <span class="badge bg-primary">₴</span>
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              Блакитне лате
-              <span class="badge bg-primary">₴</span>
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              Блакитне кокосове лате
-              <span class="badge bg-primary">₴</span>
-            </li>
-          </ul> -->
-
           <h2 id="cocktail" class="mt-5 fs-1">Коктейлі</h2>
           <ul class="list-group fs-5 mt-3">
             <li
@@ -950,11 +886,11 @@
         var secondSpan = buttonElement.querySelector(".menuButtonIcon2");
 
         if (firstSpan.style.display === "none") {
-          firstSpan.style.display = "inline"; // Показуємо спан 1
-          secondSpan.style.display = "none"; // Ховаємо спан 2
+          firstSpan.style.display = "inline";
+          secondSpan.style.display = "none";
         } else {
-          firstSpan.style.display = "none"; // Ховаємо спан 1
-          secondSpan.style.display = "inline"; // Показуємо спан 2
+          firstSpan.style.display = "none";
+          secondSpan.style.display = "inline";
         }
       }
     </script>
