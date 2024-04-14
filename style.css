@@ -2,21 +2,26 @@ body::before {
     content: "";
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0px;
     width: 100%;
     height: 100%;
     background-image: url(fon.webp);
     background-size: contain;
     background-repeat: no-repeat;
     filter: blur(8px);
-    z-index: -1;
+    z-index: -1;  
+  }
+  .list-unstyled {
+    color: #696639 !important;
   }
   .badge {
-    background-color: #696639 !important;
-    color: #ffffff;
+    background-color: #FFFFFF !important;
+    color: #696639;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
+    border: 1px solid #696639 !important;
+    font-size: 12pt;
   }
   h2,
   h4 {
@@ -29,22 +34,31 @@ body::before {
     display: none;
   }
   .bg-custom {
-    background-color: #696639 !important;
+    background-color: #ffffff !important;
+    color: #FFFFFF !important;
+  }
+  .bg-custom-border {
+    background-color: #FFFFFF !important;
+    color: #696639 !important;
+    border: 1px solid #696639 !important;
   }
   ::-webkit-scrollbar {
     display: none;
   }
   .fontSize {
-    font-size: 1.7rem !important;
+    font-size: 2.5rem !important;
     margin: 0 20px;
   }
-  footer {
+  .navigation-panel {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 1;
+    padding: 10px 0px;
+    background-color: #FFFFFF;
   }
   .mb-10 {
-    margin-bottom: 100px !important;
+    margin-bottom: 50px !important;
   }
   .pacifico-regular {
     font-family: "Pacifico", cursive;
@@ -57,5 +71,11 @@ body::before {
     font-style: normal;
   }
   .p-custom-badge {
-    padding-right: 17px;
+    padding-right: 20px;
   }
+.bi {
+  color: #696639 !important;
+}
+ul.custom-ul li {
+  color: #696639 !important;
+}
