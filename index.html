@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Локація</title>
     <link rel="icon" type="image/x-icon" href="favicon.png" />
-    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link href="style.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Font1"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Font2"
-    />
-    <link rel="stylesheet" href="Lobster-Regular.ttf" />
   </head>
   <body>
     <div class="header">
-      <img class="img-fluid border-0 my-3" src="logo.webp" alt="" />
+      <div class="d-flex justify-content-center">
+        <img
+          class="img-fluid border-0 my-3"
+          src="logo.webp"
+          alt="Logo"
+          width="500px"
+          height="500px"
+        />
+      </div>
       <div class="d-flex flex-column py-2 bg-custom border container">
         <h2 class="text-center mb-3 pt-1">Центр допомоги кавою☕️</h2>
         <ul
@@ -128,7 +130,7 @@
               data-bs-toggle="collapse"
               href="#kapuchinoCollapse"
               aria-expanded="false"
-              aria-controls="espressoCollapse"
+              aria-controls="kapuchinoCollapse"
               onclick="toggleSpans(this)"
             >
               Капучино
@@ -156,7 +158,7 @@
               data-bs-toggle="collapse"
               href="#latteCollapse"
               aria-expanded="false"
-              aria-controls="espressoCollapse"
+              aria-controls="latteCollapse"
               onclick="toggleSpans(this)"
             >
               Лате
@@ -184,7 +186,7 @@
               data-bs-toggle="collapse"
               href="#flatwhiteCollapse"
               aria-expanded="false"
-              aria-controls="espressoCollapse"
+              aria-controls="flatwhiteCollapse"
               onclick="toggleSpans(this)"
             >
               Флет-Уайт
@@ -230,7 +232,7 @@
               data-bs-toggle="collapse"
               href="#frapeCollapse"
               aria-expanded="false"
-              aria-controls="espressoCollapse"
+              aria-controls="frapeCollapse"
               onclick="toggleSpans(this)"
             >
               Фрапе
@@ -258,7 +260,7 @@
               data-bs-toggle="collapse"
               href="#firmoviCollapse"
               aria-expanded="false"
-              aria-controls="espressoCollapse"
+              aria-controls="firmoviCollapse"
               onclick="toggleSpans(this)"
             >
               Фірмові Лате / Раф
@@ -399,7 +401,7 @@
               data-bs-toggle="collapse"
               href="#americanoCollapse"
               aria-expanded="false"
-              aria-controls="espressoCollapse"
+              aria-controls="americanoCollapse"
               onclick="toggleSpans(this)"
             >
               Заварний чай
@@ -466,7 +468,7 @@
               data-bs-toggle="collapse"
               href="#naturalteaCollapse"
               aria-expanded="false"
-              aria-controls="espressoCollapse"
+              aria-controls="naturalteaCollapse"
               onclick="toggleSpans(this)"
             >
               Натуральний чай
@@ -518,7 +520,7 @@
               data-bs-toggle="collapse"
               href="#hotchocklateCollapse"
               aria-expanded="false"
-              aria-controls="espressoCollapse"
+              aria-controls="hotchocklateCollapse"
               onclick="toggleSpans(this)"
             >
               Гарячий шоколад
@@ -588,7 +590,7 @@
               data-bs-toggle="collapse"
               href="#matchaCollapse"
               aria-expanded="false"
-              aria-controls="espressoCollapse"
+              aria-controls="matchaCollapse"
               onclick="toggleSpans(this)"
             >
               Матча Лате
@@ -700,7 +702,7 @@
               data-bs-toggle="collapse"
               href="#lemonadCollapse"
               aria-expanded="false"
-              aria-controls="espressoCollapse"
+              aria-controls="lemonadCollapse"
               onclick="toggleSpans(this)"
             >
               Лимонад
@@ -880,7 +882,7 @@
         </div>
       </div>
     </div>
-    <script src="bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
     <script>
       function toggleSpans(buttonElement) {
         var firstSpan = buttonElement.querySelector(".menuButtonIcon1");
