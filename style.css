@@ -1,5 +1,8 @@
 * {
   color: #696639;
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 body::before {
   content: "";
@@ -15,19 +18,12 @@ body::before {
   z-index: -1;
 }
 .badge {
-  background-color: #ffffff !important;
   color: #696639;
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
   border: 1px solid #696639 !important;
   font-size: 12pt;
-}
-h2,
-h4 {
-  font-family: "Pattaya", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 .notdiv {
   display: none;
@@ -40,11 +36,8 @@ h4 {
   color: #696639 !important;
   border: 1px solid #696639 !important;
 }
-::-webkit-scrollbar {
-  display: none;
-}
 .fontSize {
-  font-size: 2.5rem !important;
+  font-size: 2.3rem !important;
   margin: 0 20px;
 }
 .navigation-panel {
@@ -55,21 +48,13 @@ h4 {
   padding: 10px 0px;
   background-color: #ffffff;
 }
-.mb-10 {
-  margin-bottom: 100px !important;
-}
-.header {
-  font-family: "Pattaya", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 .p-custom-badge {
   padding-right: 20px;
 }
-ul.custom-ul li {
+ul li {
   color: #696639 !important;
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.25rem
+  font-size: 1.25rem;
 }
