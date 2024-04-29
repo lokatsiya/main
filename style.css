@@ -51,7 +51,7 @@ body::before {
 .p-custom-badge {
   padding-right: 20px;
 }
-ul li {
+ul.custom-ul li {
   color: #696639 !important;
   font-family: "Pacifico", cursive;
   font-weight: 400;
