@@ -4,6 +4,12 @@
   font-weight: 400;
   font-style: normal;
 }
+.header {
+  color: #696639;
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 body::before {
   content: "";
   position: fixed;
@@ -25,12 +31,6 @@ body::before {
   font-style: normal;
   border: 1px solid #696639 !important;
   font-size: 12pt;
-}
-h2,
-h4 {
-  font-family: "Pattaya", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 .notdiv {
   display: none;
@@ -54,9 +54,6 @@ h4 {
   z-index: 1;
   padding: 10px 0px;
   background-color: #ffffff;
-  font-family: "Pattaya", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 .p-custom-badge {
   padding-right: 20px;
