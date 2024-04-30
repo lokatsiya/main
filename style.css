@@ -1,5 +1,8 @@
 * {
   color: #696639;
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 body::before {
   content: "";
@@ -60,5 +63,5 @@ ul.custom-ul li {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.25rem
+  font-size: 1.25rem;
 }
